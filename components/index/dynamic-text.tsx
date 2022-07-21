@@ -18,7 +18,11 @@ const DynamicText = () => {
   });
 
   return (
-    <p className="sm:text-5xl text-3xl">
+    <motion.p
+      className="sm:text-5xl text-3xl"
+      initial={{ opacity: 0, y: -100 }}
+      animate={{ opacity: 1, y: 0, transition: { delay: 0.5 } }}
+    >
       I love to&nbsp;
       <AnimatePresence>
         {
@@ -33,7 +37,7 @@ const DynamicText = () => {
           </motion.span>
         }
       </AnimatePresence>
-    </p>
+    </motion.p>
   );
 };
 
