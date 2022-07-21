@@ -1,0 +1,27 @@
+{
+  "id": "5d75ce84-8b96-4fec-b032-cf9f1be9823f",
+  "uid": "reiciendis-temporibus-ad",
+  "type": "experience-bullet",
+  "data": {
+    "orgName": "empower ubiquitous functionalities",
+    "role": "scale customized systems",
+    "start": "2018-08-18",
+    "end": "2014-12-16",
+    "orgLogo": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=900&h=500&fit=crop"
+    },
+    "details": [
+      {
+        "type": "paragraph",
+        "text": "Culpa ullamco enim mollit excepteur cupidatat ullamco. Eiusmod ea nulla commodo irure Lorem.",
+        "spans": []
+      }
+    ]
+  }
+}
