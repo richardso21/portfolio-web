@@ -5,6 +5,7 @@ import { ReactElement, ReactNode } from 'react';
 import { PrismicProvider } from '@prismicio/react';
 import { linkResolver } from '../prismicio';
 import Link from 'next/link';
+import NextNProgress from 'nextjs-progressbar';
 
 export type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
@@ -28,6 +29,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
         </Link>
       )}
     >
+      <NextNProgress color="#60a5fa" height={5} />
       {component}
     </PrismicProvider>
   );
