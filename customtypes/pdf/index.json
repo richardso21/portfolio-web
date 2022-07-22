@@ -1,0 +1,25 @@
+{
+  "id": "pdf",
+  "label": "pdf",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Uid",
+          "placeholder": ""
+        }
+      },
+      "pdfLink": {
+        "type": "Link",
+        "config": {
+          "label": "Pdf Link",
+          "placeholder": "",
+          "select": "media"
+        }
+      }
+    }
+  }
+}

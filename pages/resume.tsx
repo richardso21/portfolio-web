@@ -1,8 +1,20 @@
-import { NextPage } from 'next';
+import { asLink } from '@prismicio/helpers';
+import { GetStaticProps, NextPage } from 'next';
+import { createClient } from '../prismicio';
 
-const Resume: NextPage = () => (
+export const getStaticProps: GetStaticProps = async (context) => {
+  const client = createClient(context.previewData);
+  // query for pdf link
+  const pdfItem = client.getByUID('pdf', 'resume');
+  const pdfLink = asLink((await pdfItem).data.pdfLink);
+  return {
+    props: { pdfLink },
+  };
+};
+
+const Resume: NextPage = ({ pdfLink }: any) => (
   <div className="h-screen w-screen">
-    <iframe className="h-full w-full" src="/pdf/RSOresume.pdf" />
+    <iframe className="h-full w-full" src={pdfLink} />
   </div>
 );
 
