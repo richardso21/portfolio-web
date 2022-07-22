@@ -7,7 +7,7 @@ const container: Variants = {
     opacity: 1,
     transition: {
       delayChildren: 0.35,
-      staggerChildren: 0.1,
+      staggerChildren: 0.15,
     },
   },
 };
@@ -17,35 +17,38 @@ const item: Variants = {
   show: { opacity: 1, x: 0 },
 };
 
+const anim =
+  'transition-all ease-out hover:scale-125 hover:skew-x-12 active:text-blue-400 active:scale-110';
+
 const LinksList = () => (
   <motion.div
     variants={container}
     initial="hidden"
     animate="show"
-    className="mb-5 sm:text-3xl text-2xl px-2 underline flex flex-col italic decoration-gray-500 child:pb-5"
+    className="mb-5 sm:text-3xl text-2xl px-2 underline flex flex-col italic decoration-gray-500 child:pb-5 child:self-start"
   >
-    <motion.div variants={item}>
+    <motion.div variants={item} className={anim}>
       <Link href="/experience">
-        <motion.span className="cursor-pointer" layoutId="experience">
+        <motion.span className={'cursor-pointer'} layoutId="experience">
           Experience
         </motion.span>
       </Link>
     </motion.div>
-    <motion.div variants={item}>
+    <motion.div variants={item} className={anim}>
       <Link href="/projects">
         <motion.span className="cursor-pointer" layoutId="projects">
           Projects
         </motion.span>
       </Link>
     </motion.div>
-    <motion.div variants={item}>
+    <motion.div variants={item} className={anim}>
       <Link href="/resume">
         <motion.span className="cursor-pointer" layoutId="resume">
           Resume
         </motion.span>
       </Link>
     </motion.div>
-    <motion.div variants={item}>
+    <motion.div variants={item} className={anim}>
       <Link href="">
         <motion.span className="cursor-pointer" layoutId="aboutMe">
           About Me
