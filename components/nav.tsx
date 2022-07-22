@@ -1,4 +1,5 @@
 import { ReactNode, useState } from 'react';
+import BackButton from './nav/back';
 import Hamburger from './nav/hamburger';
 import NavMenu from './nav/menu';
 
@@ -8,6 +9,7 @@ const Nav = ({ children }: { children: ReactNode }): JSX.Element => {
   return (
     <div className="overflow-hidden">
       <Hamburger isOpen={isOpen} setIsOpen={setIsOpen} />
+      <BackButton />
       <NavMenu isOpen={isOpen} />
       <div
         className={
