@@ -7,7 +7,7 @@ const container: Variants = {
     opacity: 1,
     transition: {
       delayChildren: 0.35,
-      staggerChildren: 0.115,
+      staggerChildren: 0.1,
     },
   },
 };
@@ -18,7 +18,7 @@ const item: Variants = {
 };
 
 const anim =
-  'transition-all ease-out hover:scale-125 hover:skew-x-12 active:text-blue-400 active:scale-110';
+  'transition ease-out hover:scale-125 hover:skew-x-12 active:text-blue-400 active:scale-110';
 
 const LinksList = () => (
   <motion.div
@@ -27,32 +27,32 @@ const LinksList = () => (
     animate="show"
     className="mb-5 sm:text-3xl text-2xl px-2 underline flex flex-col italic decoration-gray-500 child:pb-5 child:self-start"
   >
-    <motion.div variants={item} className={anim}>
+    <motion.div variants={item}>
       <Link href="/experience">
-        <motion.span className={'cursor-pointer'} layoutId="experience">
+        <motion.p className={anim + ' cursor-pointer'} layoutId="experience">
           Experience
-        </motion.span>
+        </motion.p>
       </Link>
     </motion.div>
-    <motion.div variants={item} className={anim}>
+    <motion.div variants={item}>
       <Link href="/projects">
-        <motion.span className="cursor-pointer" layoutId="projects">
+        <motion.p className={anim + ' cursor-pointer'} layoutId="projects">
           Projects
-        </motion.span>
+        </motion.p>
       </Link>
     </motion.div>
-    <motion.div variants={item} className={anim}>
+    <motion.div variants={item}>
       <Link href="/resume">
-        <motion.span className="cursor-pointer" layoutId="resume">
+        <motion.p className={anim + ' cursor-pointer'} layoutId="resume">
           Resume
-        </motion.span>
+        </motion.p>
       </Link>
     </motion.div>
-    <motion.div variants={item} className={anim}>
+    <motion.div variants={item}>
       <Link href="">
-        <motion.span className="cursor-pointer" layoutId="aboutMe">
+        <motion.p className={anim + ' cursor-pointer'} layoutId="aboutMe">
           About Me
-        </motion.span>
+        </motion.p>
       </Link>
     </motion.div>
   </motion.div>

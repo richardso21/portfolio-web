@@ -28,7 +28,7 @@ const ExperiencePage: NextPageWithLayout = ({ experiences }: any) => {
   return (
     <>
       <Head>
-        <title>Experience</title>
+        <title>Experience | Richard So</title>
       </Head>
       <div className="relative pt-24">
         <motion.h1

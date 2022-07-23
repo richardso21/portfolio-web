@@ -10,5 +10,15 @@
   }
 }
 
+$hamburger-color: rgb(147 197 253);
+$hamburger-thickness: 3px;
+$hamburger-size: 52px;
+
+.ham {
+  .inner > * {
+    box-shadow: 0 0 10px black;
+  }
+}
+
 @import '~delicious-hamburgers/scss/base';
 @import '~delicious-hamburgers/scss/animations/shelf';

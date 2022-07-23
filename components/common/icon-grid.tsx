@@ -12,18 +12,27 @@ const IconGrid = ({ expandFromTopLeft = true }) => (
       (expandFromTopLeft ? 'origin-top-left' : 'origin-center')
     }
   >
-    <a href="https://richardso21.medium.com" className="hover:brightness-125">
+    <a
+      href="https://richardso21.medium.com"
+      className="hover:brightness-125"
+      target="_blank"
+      rel="noreferrer"
+    >
       <Image src={mediumSvg} layout="fill" alt="medium"></Image>
     </a>
     <a
       href="https://www.github.com/richardso21"
       className="hover:brightness-125"
+      target="_blank"
+      rel="noreferrer"
     >
       <Image src={githubSvg} layout="fill" alt="github"></Image>
     </a>
     <a
       href="https://www.linkedin.com/in/richardso21"
       className="hover:brightness-125"
+      target="_blank"
+      rel="noreferrer"
     >
       <Image src={linkedinSvg} layout="fill" alt="linkedin"></Image>
     </a>
