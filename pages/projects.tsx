@@ -1,7 +1,26 @@
+import { asDate } from '@prismicio/helpers';
 import { motion } from 'framer-motion';
+import { GetStaticProps } from 'next';
 import { ReactElement, ReactNode } from 'react';
 import Layout from '../components/layout';
+import { createClient } from '../prismicio';
 import { NextPageWithLayout } from './_app';
+
+export const getStaticProps: GetStaticProps = async (context) => {
+  const client = createClient(context.previewData);
+  // sort in descending order of end date
+  const experiences = (await client.getAllByType('experience-bullet')).sort(
+    (a, b) => {
+      return (
+        (asDate(b.data.end)?.getTime() || 0) -
+        (asDate(a.data.end)?.getTime() || 0)
+      );
+    }
+  );
+  return {
+    props: { experiences },
+  };
+};
 
 const ProjectsPage: NextPageWithLayout = () => {
   return (

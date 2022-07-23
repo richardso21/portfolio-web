@@ -21,7 +21,7 @@ const Hamburger = ({
       animate={{ display: 'initial', opacity: 1 }}
       transition={{ delay: 0.5 }}
       className={
-        'hamburger hamburger--shelf absolute mx-4 md:mx-12 my-6 md:my-8 z-50 ' +
+        'hamburger hamburger--shelf fixed mx-4 md:mx-12 my-6 md:my-8 z-50 ' +
         (isOpen ? 'active ' : '')
       }
       type="button"

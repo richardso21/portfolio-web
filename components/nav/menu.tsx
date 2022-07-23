@@ -8,7 +8,7 @@ const NavMenu = ({ isOpen }: { isOpen: boolean }) => {
     <div
       className={
         divStyle +
-        ' absolute bg-gray-400 z-30 ' +
+        ' fixed bg-gray-400 z-30 ' +
         (isOpen ? 'w-full sm:w-96' : 'w-0')
       }
     >
