@@ -2,6 +2,10 @@
   "_cts": {
     "experience-bullet": {},
     "pdf": {},
-    "project": {}
+    "project": {
+      "dateDone": {
+        "content": "2022-07-23"
+      }
+    }
   }
 }

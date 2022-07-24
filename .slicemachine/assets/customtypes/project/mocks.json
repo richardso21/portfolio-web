@@ -1,6 +1,6 @@
 {
-  "id": "6789848e-8597-4a24-885e-c63cc72aee97",
-  "uid": "similique-consequatur-ex",
+  "id": "7dd9de3f-dc82-4f30-938a-2deb0de06d7f",
+  "uid": "est-vero-tempore",
   "type": "project",
   "data": {
     "frontImage": {
@@ -10,17 +10,17 @@
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1545239351-1141bd82e8a6?w=900&h=500&fit=crop"
+      "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=900&h=500&fit=crop"
     },
-    "name": "deploy one-to-one technologies",
-    "dateDone": "2018-10-29T15:01:59.447Z",
-    "techStack": "facilitate scalable functionalities",
+    "name": "engage enterprise blockchains",
+    "techStack": "deploy open-source content",
     "details": [
       {
         "type": "paragraph",
-        "text": "Exercitation est enim labore non elit irure do ullamco occaecat sint consectetur veniam culpa. Voluptate magna minim id ut voluptate voluptate non reprehenderit esse culpa pariatur proident commodo. Et proident quis do laboris aliquip dolore.",
+        "text": "Nisi consequat pariatur officia aliqua id reprehenderit mollit officia voluptate et reprehenderit enim officia ut voluptate.",
         "spans": []
       }
-    ]
+    ],
+    "dateDone": "2022-07-23"
   }
 }
