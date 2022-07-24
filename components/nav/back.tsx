@@ -5,8 +5,8 @@ const BackButton = () => {
   const router = useRouter();
 
   const goBack = () => {
-    // go to parent site
-    const pathArr: Array<String> = router.asPath.split('/');
+    // go to parent site (include params in url)
+    const pathArr: Array<String> = router.asPath.split(/\/|\?/);
     console.log(pathArr);
     pathArr.pop();
     router.push(pathArr.length === 1 ? '/' : pathArr.join('/'));
