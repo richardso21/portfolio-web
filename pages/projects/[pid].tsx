@@ -41,13 +41,14 @@ const ProjectPage: NextPageWithLayout = ({ project, uid }: any) => {
         </motion.h1>
         <motion.div
           layoutId={uid + '_img'}
-          className="bg-blue-800 w-full h-48 relative"
+          className="bg-blue-800 w-auto h-48 relative child:h-full"
         >
           <Image
             src={project.frontImage.url}
             alt={project.frontImage.alt}
             width={project.frontImage.dimensions.width}
             height={project.frontImage.dimensions.height}
+            objectFit="contain"
           />
         </motion.div>
       </div>
