@@ -10,6 +10,10 @@
   }
 }
 
+a {
+  @apply underline underline-offset-2;
+}
+
 $hamburger-color: rgb(147 197 253);
 $hamburger-thickness: 3px;
 $hamburger-size: 52px;

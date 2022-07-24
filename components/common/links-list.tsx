@@ -25,7 +25,7 @@ const LinksList = () => (
     variants={container}
     initial="hidden"
     animate="show"
-    className="mb-5 sm:text-3xl text-2xl px-2 underline flex flex-col italic decoration-gray-500 child:pb-5 child:self-start"
+    className="mb-5 sm:text-3xl text-2xl px-2 underline underline-offset-2 flex flex-col italic decoration-gray-500 child:pb-5 child:self-start"
   >
     <motion.div variants={item}>
       <Link href="/experience">

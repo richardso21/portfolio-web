@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { ReactElement, ReactNode } from 'react';
 import Layout from '../../components/layout';
+import ProjectContent from '../../components/projects/project-content';
 import { createClient } from '../../prismicio';
 import { NextPageWithLayout } from '../_app';
 
@@ -32,26 +33,7 @@ const ProjectPage: NextPageWithLayout = ({ project, uid }: any) => {
       <Head>
         <title>{project.name + ' | Richard So'}</title>
       </Head>
-      <div className="relative h-screen pt-24">
-        <motion.h1
-          className="text-white text-5xl md:text-6xl font-bold inline-block mb-10 z-10"
-          layoutId={uid}
-        >
-          {project.name}
-        </motion.h1>
-        <motion.div
-          layoutId={uid + '_img'}
-          className="bg-blue-800 w-auto h-48 relative child:h-full"
-        >
-          <Image
-            src={project.frontImage.url}
-            alt={project.frontImage.alt}
-            width={project.frontImage.dimensions.width}
-            height={project.frontImage.dimensions.height}
-            objectFit="contain"
-          />
-        </motion.div>
-      </div>
+      <ProjectContent data={project} uid={uid} />
     </>
   );
 };

@@ -21,14 +21,14 @@ const ExperienceItem = ({ data }: { data: any }): JSX.Element => {
           alt={data.orgLogo.alt}
         />
       </span>
-      <time className="mb-1 font-light leading-none text-gray-400 italic">
+      <time className="mb-1 text-lg sm:text-xl font-light leading-none text-gray-400 italic">
         {getDateString(data.start)} - {getDateString(data.end)}
       </time>
-      <h3 className="text-3xl sm:text-4xl font-semibold text-white">
+      <h3 className="text-3xl sm:text-5xl font-semibold text-white">
         {data.orgName}
       </h3>
-      <h6 className="text-blue-300 text-2xl sm:text-3xl mb-3">{data.role}</h6>
-      <div className="mb-4 text-xl font-normal text-gray-300 child:list-disc pl-5 leading-relaxed">
+      <h6 className="text-blue-300 text-2xl sm:text-4xl mb-3">{data.role}</h6>
+      <div className="mb-4 text-xl sm:text-2xl font-normal text-gray-300 child:list-disc pl-5 leading-relaxed">
         <PrismicRichText field={data.details} />
       </div>
     </li>

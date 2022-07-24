@@ -5,7 +5,16 @@
     "project": {
       "dateDone": {
         "content": "2022-07-23"
+      },
+      "details": {
+        "config": {
+          "patternType": "PARAGRAPH",
+          "blocks": 1
+        }
       }
     }
+  },
+  "slices": {
+    "TestingSlice": {}
   }
 }
