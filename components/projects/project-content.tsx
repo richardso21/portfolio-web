@@ -12,7 +12,7 @@ const ProjectContent = ({ data, uid }: any) => {
         {data.name}
       </motion.h1>
       <motion.div
-        className="relative z-0 h-[40vh]"
+        className="relative z-0 h-[50vh]"
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0, transition: { delay: 0.35 } }}
       >
@@ -20,7 +20,7 @@ const ProjectContent = ({ data, uid }: any) => {
           <img
             src={data.frontImage.url}
             alt={data.frontImage.alt}
-            className="absolute h-full object-cover md:object-contain"
+            className="absolute h-full object-cover md:object-contain rounded-md"
           />
         </picture>
       </motion.div>
