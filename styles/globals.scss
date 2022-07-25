@@ -11,7 +11,7 @@
 }
 
 a {
-  @apply underline underline-offset-2;
+  @apply underline underline-offset-2 transition ease-out active:text-blue-400 active:scale-110;
 }
 
 $hamburger-color: rgb(147 197 253);

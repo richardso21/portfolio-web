@@ -18,7 +18,7 @@ const NavLinksList = () => {
       <Link href="/resume">
         <motion.p className={pStyle}>Resume</motion.p>
       </Link>
-      <Link href="">
+      <Link href="/about">
         <motion.p className={pStyle}>About Me</motion.p>
       </Link>
     </>

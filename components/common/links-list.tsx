@@ -49,7 +49,7 @@ const LinksList = () => (
       </Link>
     </motion.div>
     <motion.div variants={item}>
-      <Link href="">
+      <Link href="/about">
         <motion.p className={anim + ' cursor-pointer'} layoutId="aboutMe">
           About Me
         </motion.p>

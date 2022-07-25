@@ -12,7 +12,8 @@
           "blocks": 1
         }
       }
-    }
+    },
+    "about": {}
   },
   "slices": {
     "TestingSlice": {}

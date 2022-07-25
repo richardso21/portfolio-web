@@ -3,9 +3,12 @@ import DynamicText from './dynamic-text';
 
 const Hero = () => (
   <div id="hero">
-    <h1 className="font-bold sm:text-9xl text-6xl leading-none pt-5">
+    <motion.h1
+      className="font-bold sm:text-9xl text-6xl leading-none pt-5 self-start inline-block"
+      layoutId="name"
+    >
       Richard So
-    </h1>
+    </motion.h1>
     <motion.h3
       className="pb-5 sm:pb-8 leading-none text-xl sm:text-2xl text-gray-400 italic"
       initial={{ opacity: 0, y: -50 }}
