@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['images.prismic.io', 'via.placeholder.com'],
+    domains: ['images.prismic.io'],
   },
 };
 
