@@ -29,7 +29,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
         </Link>
       )}
     >
-      <NextNProgress color="#60a5fa" height={5} />
+      {/* <NextNProgress color="#60a5fa" height={5} /> */}
       {component}
     </PrismicProvider>
   );
