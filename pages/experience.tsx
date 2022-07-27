@@ -21,6 +21,7 @@ export const getStaticProps: GetStaticProps = async () => {
   );
   return {
     props: { experiences },
+    revalidate: 60,
   };
 };
 

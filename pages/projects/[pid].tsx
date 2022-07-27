@@ -1,7 +1,5 @@
-import { motion } from 'framer-motion';
 import { GetStaticProps } from 'next';
 import Head from 'next/head';
-import Image from 'next/image';
 import { ReactElement, ReactNode } from 'react';
 import Layout from '../../components/layout';
 import ProjectContent from '../../components/projects/project-content';
@@ -24,6 +22,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const project = await (await client.getByUID('project', uid)).data;
   return {
     props: { project, uid },
+    revalidate: 60,
   };
 };
 

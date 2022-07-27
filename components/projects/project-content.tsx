@@ -1,6 +1,5 @@
 import { PrismicRichText } from '@prismicio/react';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
 
 const ProjectContent = ({ data, uid }: any) => {
   return (
