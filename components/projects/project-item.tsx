@@ -7,7 +7,7 @@ const ProjectItem = ({ data, uid }: any) => {
     <Link href={'/projects/' + uid}>
       <div className="group w-full h-72 sm:h-96 relative rounded-md overflow-hidden active:scale-95 transition cursor-pointer bg-slate-700">
         <motion.div
-          className="relative h-full transition duration-200 group-hover:blur-sm group-hover:brightness-75 child:h-full"
+          className="relative h-full transition duration-200 group-hover:blur-sm group-hover:brightness-50 child:h-full"
           layoutId={uid + '_img'}
         >
           <Image
