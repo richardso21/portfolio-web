@@ -10,6 +10,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const pdfLink = asLink((await pdfItem).data.pdfLink);
   return {
     props: { pdfLink },
+    revalidate: 60,
   };
 };
 
