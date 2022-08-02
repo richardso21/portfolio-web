@@ -2,10 +2,11 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  images: {
-    loader: 'default',
-    path: '',
-  },
+  swcMinify: true,
+  // images: {
+  //   loader: 'default',
+  //   path: '',
+  // },
   assetPrefix: './',
 };
 
