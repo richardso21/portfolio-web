@@ -3,10 +3,10 @@
  */
 const nextConfig = {
   swcMinify: true,
-  // images: {
-  //   loader: 'default',
-  //   path: '',
-  // },
+  images: {
+    loader: 'akamai',
+    path: '',
+  },
   assetPrefix: './',
 };
 
