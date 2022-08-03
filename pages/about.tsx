@@ -58,6 +58,7 @@ const About: NextPageWithLayout = () => (
             or any of these links below.
           </p>
           <IconGrid />
+          <hr className="mt-10 mb-5 mx-10" />
         </motion.main>
         <motion.div
           className="relative col-span-12 lg:col-start-7 xl:col-start-8 lg:col-end-13"
