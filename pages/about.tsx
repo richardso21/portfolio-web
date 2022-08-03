@@ -46,14 +46,14 @@ const About: NextPageWithLayout = () => (
           <p className="text-gray-200">
             Hello 👋, thank you for visiting! I{"'"}m a passionate{' '}
             <strong> full stack developer + data scientist </strong> that loves
-            to learn new things. I{"'"}m currently a{' '}
-            <strong>CS major at Georgia Tech </strong> (class of 2024), and have
-            recently worked at <strong>Union Pacific Railroad</strong> as a SWE
-            intern. Also, I like ducks! 🦆
+            learning new things. I{"'"}m currently a{' '}
+            <strong>CS major at Georgia Tech </strong> (class of {"'"}24), and
+            have recently worked at <strong>Union Pacific Railroad</strong> as a
+            SWE intern.
           </p>
           <br />
           <p className="pb-10 text-gray-400 italic">
-            Reach out via{' '}
+            Reach out to me via{' '}
             <a href="mailto:richardso2021@gmail.com">richardso2021@gmail.com</a>{' '}
             or any of these links below.
           </p>
