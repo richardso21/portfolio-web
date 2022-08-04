@@ -26,6 +26,13 @@ const Home: NextPageWithLayout = () => (
   <>
     <Head>
       <title>Richard So</title>
+      <meta name="keywords" content="Richard So, SWE, data science, software" />
+      <meta name="og:title" content="Richard So" />
+      <meta
+        name="og:description"
+        content="Richard So - Full Stack Developer & Data Scientist"
+      />
+      <meta name="og:type" content="profile" />
     </Head>
     <motion.main
       className="text-white flex w-full h-screen flex-col justify-center"
