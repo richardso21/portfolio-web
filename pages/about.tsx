@@ -71,6 +71,7 @@ const About: NextPageWithLayout = () => (
             <li>C / C++</li>
             <li>MATLAB</li>
             <li>SQL</li>
+            <li>Assembly</li>
           </ul>
           <h3 className="text-gray-100 text-4xl font-bold py-5">
             Frameworks/Tech
@@ -85,8 +86,8 @@ const About: NextPageWithLayout = () => (
           </ul>
           <h3 className="text-gray-100 text-4xl font-bold py-5">Learning</h3>
           <ul className="text-gray-300 text-2xl list-disc pl-10 leading-snug">
-            <li>Flutter/Dart</li>
-            <li>Assembly</li>
+            <li>Rust</li>
+            <li>Go</li>
           </ul>
         </motion.div>
       </motion.div>
