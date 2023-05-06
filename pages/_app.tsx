@@ -4,6 +4,7 @@ import { NextPage } from 'next';
 import { ReactElement, ReactNode } from 'react';
 import { PrismicProvider } from '@prismicio/react';
 import { linkResolver } from '../prismicio';
+import { Analytics } from '@vercel/analytics/react';
 import Link from 'next/link';
 import Head from 'next/head';
 
@@ -33,6 +34,7 @@ function MyApp({ Component, pageProps }: AppPropsWithLayout) {
         <link rel="logo" href="/favicon.ico" />
       </Head>
       {component}
+      <Analytics />
     </PrismicProvider>
   );
 }

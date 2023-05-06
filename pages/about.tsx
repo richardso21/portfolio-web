@@ -48,8 +48,9 @@ const About: NextPageWithLayout = () => (
             <strong> full stack developer + data scientist </strong> that loves
             learning new things. I{"'"}m currently a{' '}
             <strong>CS major at Georgia Tech </strong> (class of {"'"}24), and
-            have recently worked at <strong>Union Pacific Railroad</strong> as a
-            SWE intern.
+            am a <strong>SWE intern for Tanium</strong> for Summer 2023.
+            {/* have recently worked at <strong>Union Pacific Railroad</strong> as a
+            SWE intern. */}
           </p>
           <br />
           <p className="pb-10 text-gray-400 italic">
@@ -64,16 +65,16 @@ const About: NextPageWithLayout = () => (
           className="relative col-span-12 lg:col-start-7 xl:col-start-8 lg:col-end-13"
           variants={item}
         >
-          <h3 className="text-gray-100 text-4xl font-bold pb-5">Languages</h3>
+          <h3 className="text-gray-100 text-4xl font-bold pb-3">Languages</h3>
           <ul className="text-gray-300 text-2xl list-disc pl-10 leading-snug">
-            <li>Javascript / Typescript</li>
             <li>Python</li>
+            <li>Javascript / Typescript</li>
             <li>C / C++</li>
             <li>MATLAB</li>
+            <li>Go</li>
             <li>SQL</li>
-            <li>Assembly</li>
           </ul>
-          <h3 className="text-gray-100 text-4xl font-bold py-5">
+          <h3 className="text-gray-100 text-4xl font-bold py-3">
             Frameworks/Tech
           </h3>
           <ul className="text-gray-300 text-2xl list-disc pl-10 leading-snug">
@@ -84,10 +85,9 @@ const About: NextPageWithLayout = () => (
             <li>Firebase, PostgreSQL, SQLite</li>
             <li>Salesforce (CRM Analytics)</li>
           </ul>
-          <h3 className="text-gray-100 text-4xl font-bold py-5">Learning</h3>
+          <h3 className="text-gray-100 text-4xl font-bold py-3">Learning</h3>
           <ul className="text-gray-300 text-2xl list-disc pl-10 leading-snug">
             <li>Rust</li>
-            <li>Go</li>
           </ul>
         </motion.div>
       </motion.div>
