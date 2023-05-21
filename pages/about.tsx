@@ -48,7 +48,7 @@ const About: NextPageWithLayout = () => (
             <strong> full stack developer + data scientist </strong> that loves
             learning new things. I{"'"}m currently a{' '}
             <strong>CS major at Georgia Tech </strong> (class of {"'"}24), and
-            am a <strong>SWE intern for Tanium</strong> for Summer 2023.
+            am a <strong>SWE intern at Tanium</strong> for Summer 2023.
             {/* have recently worked at <strong>Union Pacific Railroad</strong> as a
             SWE intern. */}
           </p>
