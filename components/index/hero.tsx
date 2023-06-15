@@ -25,12 +25,14 @@ const Hero = () => {
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0, transition: { delay: 0.3 } }}
       >
-        CS @ Georgia Tech {"'"}24
+        BS/MS CS @ GaTech {"'"}25
         {/* use '|' separator if wide screen, else line break for mobile */}
-        {width >= 640 ? <span className="not-italic"> | </span> : <br />}
-        Full Stack Developer
+        {width >= 770 ? <span className="not-italic"> | </span> : <br />}
+        Full Stack, Data Science, AI/ML
       </motion.h3>
-      <DynamicText />
+      <div className="relative">
+        <DynamicText />
+      </div>
     </div>
   );
 };

@@ -38,25 +38,28 @@ const Home: NextPageWithLayout = () => (
       />
       <meta name="og:type" content="profile" />
     </Head>
-    <motion.main
-      className="text-white flex w-full h-screen flex-col justify-center"
-      variants={container}
-      initial="hidden"
-      animate="show"
-    >
-      <motion.div variants={item}>
-        <Hero />
-      </motion.div>
-      <motion.div variants={item}>
-        <hr className="sm:w-96 w-60 my-10" />
-      </motion.div>
-      <motion.div variants={item}>
-        <LinksList />
-      </motion.div>
-      <motion.div variants={item}>
-        <IconGrid />
-      </motion.div>
-    </motion.main>
+    <div className="flex flex-col justify-center w-full h-screen overflow-visible -mx-5">
+      <motion.main
+        // className="text-white flex w-full h-screen flex-col justify-center"
+        className="text-white w-full overflow-scroll pl-5"
+        variants={container}
+        initial="hidden"
+        animate="show"
+      >
+        <motion.div variants={item}>
+          <Hero />
+        </motion.div>
+        <motion.div variants={item}>
+          <hr className="sm:w-96 w-60 my-10" />
+        </motion.div>
+        <motion.div variants={item}>
+          <LinksList />
+        </motion.div>
+        <motion.div variants={item}>
+          <IconGrid />
+        </motion.div>
+      </motion.main>
+    </div>
   </>
 );
 
