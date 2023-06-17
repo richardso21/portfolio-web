@@ -12,7 +12,7 @@ const container: Variants = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.1,
+      staggerChildren: 0.15,
     },
   },
 };
@@ -29,7 +29,7 @@ const Home: NextPageWithLayout = () => (
       <meta name="keywords" content="Richard So, SWE, data science, software" />
       <meta
         name="description"
-        content="Portfolio & Resume for Richard So - Computer Science @ Georgia Tech '24 | Full Stack Developer."
+        content="Portfolio & Resume for Richard So - CS @ Georgia Tech BS/MS '25 | Full Stack, Data Science, AI/ML."
       />
       <meta name="og:title" content="Richard So" />
       <meta
@@ -38,8 +38,9 @@ const Home: NextPageWithLayout = () => (
       />
       <meta name="og:type" content="profile" />
     </Head>
-    <div className="flex flex-col justify-center w-full h-screen overflow-visible -mx-5">
-      <motion.main
+    <main className="flex flex-col justify-center h-screen -mx-5">
+      {/* <div className="mt-96 w-full h-screen overflow-visible -mx-5"> */}
+      <motion.div
         // className="text-white flex w-full h-screen flex-col justify-center"
         className="text-white w-full overflow-scroll pl-5"
         variants={container}
@@ -58,8 +59,8 @@ const Home: NextPageWithLayout = () => (
         <motion.div variants={item}>
           <IconGrid />
         </motion.div>
-      </motion.main>
-    </div>
+      </motion.div>
+    </main>
   </>
 );
 

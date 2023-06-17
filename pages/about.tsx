@@ -54,7 +54,7 @@ const About: NextPageWithLayout = () => (
           </p>
           <br />
           <p className="pb-10 text-gray-400 italic">
-            Reach out to me via{' '}
+            Feel free to reach out to me via{' '}
             <a href="mailto:richardso2021@gmail.com">richardso2021@gmail.com</a>{' '}
             or any of these links below.
           </p>
