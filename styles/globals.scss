@@ -10,6 +10,15 @@
   }
 }
 
+@layer utilities {
+  .scrollbar-hidden {
+    scrollbar-width: none;
+  }
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 a {
   @apply underline underline-offset-2 transition ease-out active:text-blue-400 active:scale-110;
 }

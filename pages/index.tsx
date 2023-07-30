@@ -42,7 +42,7 @@ const Home: NextPageWithLayout = () => (
       {/* <div className="mt-96 w-full h-screen overflow-visible -mx-5"> */}
       <motion.div
         // className="text-white flex w-full h-screen flex-col justify-center"
-        className="text-white w-full overflow-x-hidden overflow-y-scroll pl-5"
+        className="text-white w-full overflow-x-hidden overflow-y-scroll pl-5 scrollbar-hidden"
         variants={container}
         initial="hidden"
         animate="show"
