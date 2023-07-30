@@ -11,7 +11,7 @@ const ExperienceList = ({
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.3 }}
-      className="pl-6 sm:pl-12 xl:pr-72 md:pr-36"
+      className="pl-6 sm:pl-12 pr-2 md:pr-10"
     >
       <ol className="relative border-l border-gray-500 child:text-xl">
         {experiences.map((experience: any) => (
