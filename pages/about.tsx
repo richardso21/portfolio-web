@@ -62,7 +62,7 @@ const About: NextPageWithLayout = () => {
                 <Emph>data scientist</Emph>.
               </li>
               <li>
-                currently a SWE intern for <Emph>Tanium</Emph> Threat Response.
+                previously a SWE intern for <Emph>Tanium</Emph> Threat Response.
               </li>
               <li>
                 pursuing BS/MS Computer Science at <Emph>Georgia Tech</Emph>.
