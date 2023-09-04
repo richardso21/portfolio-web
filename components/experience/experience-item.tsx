@@ -28,7 +28,7 @@ const ExperienceItem = ({ data }: { data: any }): JSX.Element => {
         {data.orgName}
       </h3>
       <h6 className="text-blue-300 text-2xl sm:text-4xl mb-3">{data.role}</h6>
-      <div className="mb-4 text-xl sm:text-2xl font-normal text-gray-300 child:list-disc pl-5 leading-relaxed [&_li]:py-2">
+      <div className="mb-4 text-xl sm:text-2xl font-normal text-gray-300 child:list-disc leading-relaxed [&_li]:py-2">
         <PrismicRichText field={data.details} />
       </div>
     </li>

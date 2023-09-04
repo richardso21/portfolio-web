@@ -77,7 +77,7 @@ const About: NextPageWithLayout = () => {
               <span className="text-blue-300">
                 richardso2021 [at] gmail [dot] com
               </span>{' '}
-              or via any of these links below.
+              or via the social medias below.
             </p>
             <IconGrid />
             {width < 770 && <hr className="mt-10 mb-5 mx-10" />}
