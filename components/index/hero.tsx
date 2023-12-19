@@ -21,7 +21,8 @@ const Hero = () => {
         Richard So
       </motion.h1>
       <motion.h3
-        className="pb-5 sm:pb-8 leading-tight text-xl sm:text-2xl text-gray-400 italic"
+        // className="pb-5 sm:pb-8 leading-tight text-xl sm:text-2xl text-gray-400 italic"
+        className="leading-tight text-xl sm:text-2xl text-gray-400 italic"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0, transition: { delay: 0.3 } }}
       >
@@ -30,9 +31,9 @@ const Hero = () => {
         {width >= 770 ? <span className="not-italic"> | </span> : <br />}
         Full Stack, Data Science, AI/ML
       </motion.h3>
-      <div className="relative">
+      {/* <div className="relative">
         <DynamicText />
-      </div>
+      </div> */}
     </div>
   );
 };
