@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
-import DynamicText from './dynamic-text';
+// import DynamicText from './dynamic-text';
 
 const Hero = () => {
   // keep width as state for responsiveness
