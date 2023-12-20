@@ -14,6 +14,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       }))
     }
     return () => {
+      // @ts-ignore dumb `never` type check
       if (vantaEffect) vantaEffect.destroy();
     }
   }, [vantaEffect])
