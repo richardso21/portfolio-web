@@ -37,7 +37,6 @@ const Home: NextPageWithLayout = () => (
         content="Richard So - Software Developer Portfolio & Resume."
       />
       <meta name="og:type" content="profile" />
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" defer />
     </Head>
     <main className="flex flex-col justify-center h-screen -mx-5">
       {/* <div className="mt-96 w-full h-screen overflow-visible -mx-5"> */}
