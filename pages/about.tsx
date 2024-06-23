@@ -62,7 +62,7 @@ const About: NextPageWithLayout = () => {
                 <Emph>data scientist</Emph>.
               </li>
               <li>
-                previously a SWE intern for <Emph>Tanium</Emph> Threat Response.
+                currently a SWE/ML intern for <Emph>Amazon Web Services</Emph>.
               </li>
               <li>
                 pursuing BS/MS Computer Science at <Emph>Georgia Tech</Emph>.
@@ -109,7 +109,7 @@ const About: NextPageWithLayout = () => {
                 <Emph>Data:</Emph> NumPy, Pandas, Matplotlib
               </li>
               <li>
-                <Emph>ML/AI:</Emph> PyTorch, Keras, scikit-learn
+                <Emph>ML/AI:</Emph> PyTorch, Keras, Scikit-learn
               </li>
               <li>
                 <Emph>DB:</Emph> Knex, PostgreSQL, SQLite, Firebase

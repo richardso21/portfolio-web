@@ -14,26 +14,20 @@ const ProjectContent = ({ data, uid }: any) => {
         {data.name}
       </motion.h1>
       <motion.div
-        className="relative z-0 h-[30vh] md:h-[50vh]"
+        className="relative z-0"
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0, transition: { delay: 0.35 } }}
       >
-        <div className="relative h-full w-full md:w-7/12 child:h-full child:rounded-md">
+        <div className="relative w-full md:w-7/12 child:h-full child:rounded-md">
           <Image
             src={data.frontImage.url}
             alt={data.frontImage.alt}
             width={data.frontImage.dimensions.width}
             height={data.frontImage.dimensions.height}
             objectFit="cover"
+            quality={80}
           ></Image>
         </div>
-        {/* <picture>
-          <img
-            src={data.frontImage.url}
-            alt={data.frontImage.alt}
-            className="absolute h-full object-cover md:object-contain rounded-md"
-          />
-        </picture> */}
       </motion.div>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
