@@ -1,6 +1,6 @@
 import { asDate } from '@prismicio/helpers';
 import { PrismicRichText } from '@prismicio/react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const getDateString = (date: `${number}-${number}-${number}`) => {
   return asDate(date).toLocaleDateString('default', {

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import mediumSvg from '../../public/icons/medium.svg';
 import githubSvg from '../../public/icons/github.svg';
 import linkedinSvg from '../../public/icons/linkedin.svg';

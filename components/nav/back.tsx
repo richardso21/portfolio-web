@@ -7,7 +7,6 @@ const BackButton = () => {
   const goBack = () => {
     // go to parent site
     const pathArr: Array<String> = router.asPath.split('/');
-    console.log(pathArr);
     pathArr.pop();
     router.push(pathArr.length === 1 ? '/' : pathArr.join('/'));
   };

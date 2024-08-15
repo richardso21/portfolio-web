@@ -1,10 +1,8 @@
 import { PrismicRichText } from '@prismicio/react';
 import { motion } from 'framer-motion';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 const ProjectContent = ({ data, uid }: any) => {
-  console.log(data.frontImage);
-
   return (
     <div className="relative pt-24">
       <motion.h1

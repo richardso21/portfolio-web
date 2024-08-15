@@ -5,24 +5,29 @@ import Head from 'next/head';
 
 export default function Layout({ children }: { children: ReactNode }) {
   const [vantaEffect, setVantaEffect] = useState(null);
-  const bgDiv = useRef(null)
+  const bgDiv = useRef(null);
   useEffect(() => {
     if (!vantaEffect) {
-      setVantaEffect(WAVES({
-        el: bgDiv.current,
-        color: 0x040e1e,
-        shininess: 0.00,
-      }))
+      setVantaEffect(
+        WAVES({
+          el: bgDiv.current,
+          color: 0x040e1e,
+          shininess: 0.0,
+        })
+      );
     }
     return () => {
       // @ts-ignore dumb `never` type check
       if (vantaEffect) vantaEffect.destroy();
-    }
-  }, [vantaEffect])
+    };
+  }, [vantaEffect]);
   return (
     <>
       <Head>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" defer />
+        <script
+          src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"
+          defer
+        />
       </Head>
       <div ref={bgDiv} className="fixed h-screen w-screen" />
       <div className="dark bg-gray-900">
