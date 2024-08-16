@@ -23,7 +23,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   console.log(project);
   return {
     props: { project, uid },
-    revalidate: 60,
+    // revalidate: 60,
   };
 };
 
