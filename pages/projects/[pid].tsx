@@ -20,6 +20,7 @@ export const getStaticProps: GetStaticProps = async (context) => {
   const client = createClient();
 
   const project = await (await client.getByUID('project', uid)).data;
+  console.log(project);
   return {
     props: { project, uid },
     revalidate: 60,

@@ -1,0 +1,60 @@
+[
+  {
+    "uid": {
+      "__TYPE__": "UIDContent",
+      "value": "breath"
+    },
+    "orgName": {
+      "__TYPE__": "FieldContent",
+      "value": "women",
+      "type": "Text"
+    },
+    "role": {
+      "__TYPE__": "FieldContent",
+      "value": "close",
+      "type": "Text"
+    },
+    "start": {
+      "__TYPE__": "FieldContent",
+      "type": "Date",
+      "value": "2023-10-26"
+    },
+    "end": {
+      "__TYPE__": "FieldContent",
+      "type": "Date",
+      "value": "2012-06-14"
+    },
+    "orgLogo": {
+      "__TYPE__": "ImageContent",
+      "origin": {
+        "id": "main",
+        "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89",
+        "width": 3456,
+        "height": 3456
+      },
+      "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89",
+      "width": 3456,
+      "height": 3456,
+      "edit": {
+        "zoom": 1,
+        "crop": {
+          "x": 0,
+          "y": 0
+        },
+        "background": "transparent"
+      },
+      "thumbnails": {}
+    },
+    "details": {
+      "__TYPE__": "StructuredTextContent",
+      "value": [
+        {
+          "type": "paragraph",
+          "content": {
+            "text": "Esse duis in excepteur cillum ut sit ullamco id eiusmod."
+          }
+        }
+      ]
+    }
+  }
+]
