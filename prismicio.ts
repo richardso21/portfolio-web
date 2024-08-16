@@ -26,6 +26,18 @@ const routes: prismic.ClientConfig['routes'] = [
   // },
 ];
 
+// Update the Link Resolver to match your project's route structure
+export function linkResolver(doc: any) {
+  switch (doc.type) {
+    case 'homepage':
+      return '/';
+    case 'page':
+      return `/${doc.uid}`;
+    default:
+      return null;
+  }
+}
+
 /**
  * Creates a Prismic client for the project's repository. The client is used to
  * query content from the Prismic API.
