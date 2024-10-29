@@ -62,10 +62,10 @@ const About: NextPageWithLayout = () => {
                 <Emph>data scientist</Emph>.
               </li>
               <li>
-                currently a SWE/ML intern for <Emph>Amazon Web Services</Emph>.
+                previously a SWE/ML intern for <Emph>Amazon Web Services</Emph>.
               </li>
               <li>
-                pursuing BS/MS Computer Science at <Emph>Georgia Tech</Emph>.
+                pursuing a Master&apos;s in Computer Science at <Emph>Georgia Tech</Emph>.
               </li>
               <li>
                 always in search of something new to <Emph>learn</Emph>.
@@ -103,16 +103,16 @@ const About: NextPageWithLayout = () => {
                 <Emph>Web:</Emph> React, Vue, Angular, Svelte, Jest
               </li>
               <li>
-                <Emph>Backend:</Emph> Express, Flask, Joi, Jasmine
+                <Emph>Backend:</Emph> Express, Flask, Django
               </li>
               <li>
-                <Emph>Data:</Emph> NumPy, Pandas, Matplotlib
+                <Emph>Data:</Emph> NumPy, Pandas, Matplotlib, Streamlit
               </li>
               <li>
-                <Emph>ML/AI:</Emph> PyTorch, Keras, Scikit-learn
+                <Emph>ML/AI:</Emph> PyTorch, Scikit-learn, HuggingFace
               </li>
               <li>
-                <Emph>DB:</Emph> Knex, PostgreSQL, SQLite, Firebase
+                <Emph>DB:</Emph> Knex, PostgreSQL, SQLite, Firebase, MongoDB
               </li>
               {/* <li>Salesforce (CRM Analytics)</li> */}
             </ul>
